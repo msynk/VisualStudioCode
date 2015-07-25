@@ -24,7 +24,7 @@ Experiences with VS Code.
 		// A task runner that calls the Typescipt compiler (tsc) and 
 		// compiles based on a tsconfig.json file that is present in
 		// the root of the folder open in VSCode
-	{
+		{
 			"version": "0.1.0",
 			
 			// The command is tsc. Assumes that tsc has been installed using npm install -g typescript
@@ -42,7 +42,7 @@ Experiences with VS Code.
 			// use the standard tsc problem matcher to find compile problems
 			// in the output.
 			"problemMatcher": "$tsc"
-	}
+		}
     
 6. make sure the command property is being set to "tsc.cmd", the `.cmd` extension is required to force it to use the node version of tsc (to use the latest version).
 
