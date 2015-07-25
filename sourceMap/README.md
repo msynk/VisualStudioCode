@@ -24,7 +24,6 @@ Experiences with VS Code.
 	// A task runner that calls the Typescipt compiler (tsc) and 
 	// compiles based on a tsconfig.json file that is present in
 	// the root of the folder open in VSCode
-    
 	{
 			"version": "0.1.0",
 			
