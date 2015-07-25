@@ -48,8 +48,8 @@ Experiences with VS Code.
 
 7. add an `index.ts` to the project:
 
-    var mapped = [1, 2, 3, 4, 5].map(n=> n / 5);
-    mapped.forEach(console.log.bind(console));
+		var mapped = [1, 2, 3, 4, 5].map(n=> n / 5);
+		mapped.forEach(console.log.bind(console));
     
 8. after save, press `ctrl+shift+B` again to run the task.
 
