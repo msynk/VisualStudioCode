@@ -4,18 +4,18 @@ Experiences with VS Code.
 
 1. install last version of tsc (at least versio 1.5 for tsconfig.json support):
 
-    c:\> npm i tsc -g
+    C:\\> npm i tsc -g
    
 2. add a tsconfig.json file to the root folder of the project.
 
 3. add following content to tsconfig.json:
 
-    {
-      "compilerOptions": {
-		    "target": "ES5",
-		    "sourceMap": true
-	   }
-    }
+    	{
+		"compilerOptions": {
+			"target": "ES5",
+			 "sourceMap": true
+	   	}
+    	}
 
 4. configure vs code task by pressing `ctrl+shift+B`
 
